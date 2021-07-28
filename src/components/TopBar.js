@@ -35,7 +35,7 @@ const TopBar = () => {
       <div style={{ float: "left", color: "white", flex: 1 }} />
       <div style={{ float: "right", paddingRight: 20 }}>
         {login ? <Button style={{ padding: "0", borderRadius: "100%", overflow: "hidden" }}><Avatar name="
-       F" size="40" color="#337ab7" /></Button> : <Button click={logIn} style={{ backgroundColor: "#337ab7", color: "white" }}>
+       A" size="40" color="#337ab7" /></Button> : <Button click={logIn} style={{ backgroundColor: "#337ab7", color: "white" }}>
           Login
         </Button>}
 
